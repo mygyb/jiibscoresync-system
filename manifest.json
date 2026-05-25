@@ -1,0 +1,42 @@
+[manifest.json](https://github.com/user-attachments/files/27862430/manifest.json)
+{
+  "name": "JIIB$CORE SYNC",
+  "short_name": "JIIB$CORE",
+  "description": "Academic Management System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "jiib.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "jiib.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Marks Entry",
+      "short_name": "Marks",
+      "description": "Go directly to marks entry",
+      "url": "/?page=marks",
+      "icons": [{ "src": "jiib.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View school dashboard",
+      "url": "/?page=dashboard",
+      "icons": [{ "src": "jiib.png", "sizes": "192x192" }]
+    }
+  ]
+}
